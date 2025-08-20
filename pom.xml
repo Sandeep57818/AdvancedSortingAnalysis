@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Version of the POM model -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Basic project info -->
+    <groupId>com.research</groupId>        <!-- Your organization or group name -->
+    <artifactId>sorting-algorithm-analysis</artifactId>  <!-- Your project name -->
+    <version>1.0.0</version>                <!-- Project version -->
+    <packaging>jar</packaging>              <!-- Output type: JAR file -->
+
+    <!-- Optional: Project description -->
+    <name>Sorting Algorithm Performance Analysis</name>
+    <description>Comparative analysis of sorting algorithm performance in Java</description>
+
+    <!-- Property settings -->
+    <properties>
+        <maven.compiler.source>24</maven.compiler.source>  <!-- Target Java version -->
+        <maven.compiler.target>24</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Dependencies: External libraries your project needs -->
+    <dependencies>
+        <!-- Dependency 1: JUnit for testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>  <!-- Used only during testing -->
+        </dependency>
+
+        <!-- Dependency 2: Apache Commons Math (for statistics etc.) -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+
+        <!-- Dependency 3: OpenCSV (for exporting results to CSV format) -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+    </dependencies>
+
+    <!-- Build configuration -->
+    <build>
+        <plugins>
+            <!-- Compiler plugin: which Java version to use to compile -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>24</source>  <!-- Java source version -->
+                    <target>24</target>  <!-- Java bytecode version -->
+                </configuration>
+            </plugin>
+
+            <!-- Surefire plugin: runs unit tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M9</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
