@@ -219,4 +219,21 @@ public class BenchmarkUtils {
             throw new IllegalArgumentException("Array cannot be null");
         }
     }
+
+    public static int[] generateNearlySortedArray(int size) {
+    int[] arr = generateSortedArray(size); // Reuse your existing sorted array generator
+    java.util.Random rand = new java.util.Random(42); // Fixed seed for reproducibility
+    int swaps = Math.max(1, size / 10); // Make 10% of elements "unsorted"
+    for (int i = 0; i < swaps; i++) {
+        int idx1 = rand.nextInt(size);
+        int idx2 = rand.nextInt(size);
+        // Swap two random positions
+        int temp = arr[idx1];
+        arr[idx1] = arr[idx2];
+        arr[idx2] = temp;
+    }
+    return arr;
 }
+
+}
+
