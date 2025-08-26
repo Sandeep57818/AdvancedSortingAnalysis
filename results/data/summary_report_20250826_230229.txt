@@ -1,0 +1,15 @@
+SORTING ALGORITHM PERFORMANCE ANALYSIS SUMMARY
+==================================================
+Generated: 2025-08-26T23:02:29.630979100
+Total measurements: 180
+
+ALGORITHM PERFORMANCE OVERVIEW:
+----------------------------------------
+Bubble Sort    : Avg Time =     7.58 ms (30 measurements)
+Selection Sort : Avg Time =     6.62 ms (30 measurements)
+Insertion Sort : Avg Time =     5.42 ms (30 measurements)
+Quick Sort     : Avg Time =     2.85 ms (30 measurements)
+Merge Sort     : Avg Time =     0.21 ms (30 measurements)
+Heap Sort      : Avg Time =     0.35 ms (30 measurements)
+
+Detailed analysis available in CSV file.

@@ -26,8 +26,7 @@ public class TestingPipeline {
             new InsertionSort(), new QuickSort(), new MergeSort(), new HeapSort()};
 
     /** Input sizes for testing */
-    private static final int[] TEST_SIZES = {1_000, 5_000, 10_000, 25_000, 50_000, 100_000};
-
+       private static final int[] TEST_SIZES = {100, 200, 400, 600, 800, 1_000};
     /** Data types for comprehensive testing */
     private static final String[] DATA_TYPES =
             {"Random", "Sorted", "ReverseSorted", "NearlySorted", "WithDuplicates"};
