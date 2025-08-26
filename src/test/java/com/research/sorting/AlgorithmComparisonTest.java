@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.research.sorting.algorithms.*;
 import com.research.sorting.utils.BenchmarkUtils;
 import java.util.Arrays;
-
+ 
 /**
  * Integration tests comparing all sorting algorithms.
  */
