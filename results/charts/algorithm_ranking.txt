@@ -1,0 +1,16 @@
+ALGORITHM PERFORMANCE RANKING
+==================================================
+
+Rank  Algorithm            Avg Time(ms) Performance Bar     
+------------------------------------------------------------
+1     Merge Sort                   0.21 █                   
+2     Heap Sort                    0.35 █                   
+3     Quick Sort                   2.85 ███████             
+4     Insertion Sort               5.42 ██████████████      
+5     Selection Sort               6.62 █████████████████   
+6     Bubble Sort                  7.58 ████████████████████
+
+RECOMMENDATIONS:
+1st Place: Merge Sort - Best for general-purpose sorting
+2nd Place: Reliable performance with good consistency
+Last Place: Avoid for production use

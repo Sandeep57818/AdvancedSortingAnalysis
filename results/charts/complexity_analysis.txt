@@ -1,0 +1,19 @@
+COMPLEXITY GROWTH ANALYSIS
+============================================================
+
+AVERAGE EXECUTION TIME BY INPUT SIZE (Random Data):
+------------------------------------------------------------
+Algorithm             100       200       400       600       800      1000
+---------------------------------------------------------------------------
+Bubble Sort          0.20      0.80      2.97      8.97     15.95     29.01
+Merge Sort           0.07      0.10      0.21      0.29      0.37      0.47
+Insertion Sort       0.15      0.55      2.24      6.79     12.11     16.85
+Heap Sort            0.08      0.14      0.26      0.40      0.55      0.82
+Quick Sort           0.08      0.12      0.23      0.35      0.42      0.46
+Selection Sort       0.15      0.55      2.21      6.84     11.97     15.51
+
+COMPLEXITY CLASSIFICATION:
+O(n²) Algorithms: Bubble Sort, Selection Sort, Insertion Sort
+O(n log n) Algorithms: Quick Sort, Merge Sort, Heap Sort
+
+Growth patterns confirm theoretical complexity predictions.

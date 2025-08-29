@@ -1,0 +1,16 @@
+ALGORITHM PERFORMANCE COMPARISON
+================================================================================
+
+Algorithm       Avg Time(ms) Min Time(ms) Max Time(ms) Avg Comps    Tests     
+--------------------------------------------------------------------------------
+Merge Sort              0.21         0.06         0.47         3409         30
+Heap Sort               0.35         0.07         0.82         8086         30
+Quick Sort              2.85         0.08        18.85        79689         30
+Insertion Sort          5.42         0.01        35.31        77533         30
+Selection Sort          6.62         0.15        19.12       183908         30
+Bubble Sort             7.58         0.01        33.54       146732         30
+
+KEY INSIGHTS:
+• Best Overall Performance: Merge Sort
+• Clear performance hierarchy visible
+• Significant differences between O(n²) and O(n log n) algorithms
