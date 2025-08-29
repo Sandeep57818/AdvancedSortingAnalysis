@@ -40,6 +40,22 @@
      <scope>test</scope>
    </dependency>
 
+   <!-- JFreeChart for visualization -->
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.3</version>
+</dependency>
+
+<!-- JCommon - required by JFreeChart -->
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jcommon</artifactId>
+    <version>1.0.23</version>
+</dependency>
+
+
+
 
         <!-- Dependency 2: Apache Commons Math (for statistics etc.) -->
         <dependency>
@@ -55,6 +71,7 @@
             <version>5.7.1</version>
         </dependency>
     </dependencies>
+ 
 
     <!-- Build configuration -->
     <build>
@@ -76,6 +93,28 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M9</version>
             </plugin>
+
+                 <plugin>
+                   <groupId>org.apache.maven.plugins</groupId>
+                   <artifactId>maven-shade-plugin</artifactId>
+                   <version>3.4.1</version>
+                   <executions>
+                       <execution>
+                           <phase>package</phase>
+                           <goals>
+                               <goal>shade</goal>
+                           </goals>
+                           <configuration>
+                               <transformers>
+                                   <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                       <mainClass>com.research.sorting.visualization.ProfessionalChartGenerator</mainClass>
+                                   </transformer>
+                               </transformers>
+                           </configuration>
+                       </execution>
+                   </executions>
+                   </plugin>
+
         </plugins>
     </build>
 

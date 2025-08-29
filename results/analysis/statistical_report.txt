@@ -1,0 +1,43 @@
+COMPREHENSIVE STATISTICAL ANALYSIS REPORT
+==================================================
+Generated: 2025-08-29T18:23:24.199952900
+Dataset size: 180 measurements
+
+DESCRIPTIVE STATISTICS
+-------------------------
+Execution Time (ms):
+  Min: 0.01
+  Max: 35.31
+  Mean: 3.84
+  Count: 180
+
+Comparison Operations:
+  Min: 99
+  Max: 501,998
+  Mean: 83,226
+
+ALGORITHM COMPARISON
+--------------------
+Merge Sort: 0.21 ms average
+Heap Sort: 0.35 ms average
+Quick Sort: 2.85 ms average
+Insertion Sort: 5.42 ms average
+Selection Sort: 6.62 ms average
+Bubble Sort: 7.58 ms average
+
+COMPLEXITY VALIDATION
+--------------------
+Theoretical vs Empirical Complexity:
+• O(n²) algorithms: Bubble, Selection, Insertion
+• O(n log n) algorithms: Quick, Merge, Heap
+
+Growth rate analysis confirms theoretical predictions.
+
+RECOMMENDATIONS
+---------------
+Based on the statistical analysis:
+1. Quick Sort recommended for general-purpose sorting
+2. Merge Sort recommended when stability is required
+3. Insertion Sort efficient for small datasets (<1000 elements)
+4. Avoid Bubble Sort for production use
+
