@@ -102,4 +102,3 @@ Key insights from this research include the significant impact of input data pat
 This comprehensive empirical analysis provides valuable insights for algorithm selection in practical applications. The research validates theoretical complexity predictions while highlighting the importance of empirical evaluation for optimal performance.
 
 Future work could extend this analysis to include additional algorithms, larger datasets, and different programming languages to provide even broader insights into sorting algorithm performance characteristics.
-

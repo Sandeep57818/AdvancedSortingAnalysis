@@ -2,27 +2,6 @@ package com.research.sorting.algorithms;
 
 import com.research.sorting.utils.BenchmarkUtils;
 
-/**
- * Implementation of Quick Sort algorithm with median-of-three pivot selection.
- * 
- * Quick Sort is a divide-and-conquer algorithm that works by selecting a 'pivot' element and
- * partitioning the array around the pivot such that elements smaller than pivot come before it and
- * elements greater come after it.
- * 
- * Median-of-three pivot selection improves performance by choosing the median of first, middle, and
- * last elements as the pivot, reducing worst-case scenarios.
- * 
- * Time Complexity: - Best Case: O(n log n) - when pivot divides array into equal halves - Average
- * Case: O(n log n) - with random pivot selection - Worst Case: O(n²) - when pivot is always
- * smallest/largest (rare with median-of-three)
- * 
- * Space Complexity: O(log n) average case due to recursion stack Stability: Not stable - equal
- * elements may change relative order
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-23
- */
 public class QuickSort implements SortingAlgorithm {
 
     /**

@@ -25,19 +25,6 @@ import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Professional chart generator for sorting algorithm research.
- * 
- * Creates publication-quality visualizations including:
- * - Performance comparison charts
- * - Complexity growth analysis
- * - Algorithm ranking visualizations
- * - Statistical distribution plots
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-29
- */
 public class ProfessionalChartGenerator {
     
     private static final Color[] ALGORITHM_COLORS = {

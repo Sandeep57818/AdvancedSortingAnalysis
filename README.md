@@ -56,7 +56,7 @@ SortingAlgorithmResearch/
 
 ## Contact
 **Author**: Sandeep Tharalla
-**Email**: sandeeptharalla@gmail.com
+**Email**: sandeeptharalla7@gmail.com
 **Date**: August 2025 
 
 ## Implemented Algorithms

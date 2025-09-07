@@ -1,5 +1,3 @@
-package com.research.sorting;
-
 import java.io.*;
 
 public class SimpleChartTest {

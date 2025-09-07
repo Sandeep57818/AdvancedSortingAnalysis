@@ -2,29 +2,6 @@ package com.research.sorting.algorithms;
 
 import com.research.sorting.utils.BenchmarkUtils;
 
-/**
- * Implementation of Merge Sort algorithm.
- * 
- * Merge Sort is a stable, divide-and-conquer algorithm that divides the array
- * into two halves, recursively sorts them, and then merges the sorted halves.
- * 
- * Key advantages:
- * - Guaranteed O(n log n) performance in all cases
- * - Stable sorting (maintains relative order of equal elements)
- * - Predictable performance regardless of input distribution
- * 
- * Time Complexity:
- * - Best Case: O(n log n)
- * - Average Case: O(n log n)
- * - Worst Case: O(n log n)
- * 
- * Space Complexity: O(n) - requires additional space for merging
- * Stability: Stable - maintains relative order of equal elements
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-23
- */
 public class MergeSort implements SortingAlgorithm {
     
     /**

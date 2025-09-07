@@ -8,17 +8,7 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * Automated testing pipeline for comprehensive sorting algorithm analysis.
- * 
- * This pipeline orchestrates the entire benchmarking process: - Multiple algorithms across various
- * data types and sizes - Systematic data collection with progress tracking - Results storage and
- * preliminary analysis - Error handling and recovery mechanisms
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-26
- */
+
 public class TestingPipeline {
 
     /** Algorithms to be tested */

@@ -1,14 +1,5 @@
 package com.research.sorting.algorithms;
 
-/**
- * Interface defining the contract for all sorting algorithm implementations.
- * This interface ensures consistency across all algorithm implementations
- * and enables polymorphic usage in benchmarking framework.
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-21
- */
 public interface SortingAlgorithm {
     
     /**

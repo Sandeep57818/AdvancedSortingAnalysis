@@ -3,15 +3,6 @@ package com.research.sorting.utils;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * Utility class providing benchmarking support functions including
- * operation tracking, memory measurement, and data generation.
- * This class maintains global state for comparison and swap counting.
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-21
- */
 public class BenchmarkUtils {
     
     /** Global counter for comparison operations */

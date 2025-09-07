@@ -4,15 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * Stores and manages performance metrics for sorting algorithm analysis.
- * This class encapsulates all measurement data including execution time,
- * memory usage, and algorithm operation counts.
- * 
- * @Sanddeep Name
- * @version 1.0
- * @since 2025-08-21
- */
 public class PerformanceMetrics {
     
     /** Execution time in nanoseconds */

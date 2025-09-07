@@ -2,25 +2,6 @@ package com.research.sorting.algorithms;
 
 import com.research.sorting.utils.BenchmarkUtils;
 
-/**
- * Implementation of Bubble Sort algorithm.
- * 
- * Bubble Sort works by repeatedly stepping through the list,
- * comparing adjacent elements and swapping them if they are in wrong order.
- * The pass through the list is repeated until the list is sorted.
- * 
- * Time Complexity:
- * - Best Case: O(n) - when array is already sorted
- * - Average Case: O(n²)
- * - Worst Case: O(n²) - when array is reverse sorted
- * 
- * Space Complexity: O(1) - sorts in-place
- * Stability: Stable - maintains relative order of equal elements
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-22
- */
 public class BubbleSort implements SortingAlgorithm {
     
     /**

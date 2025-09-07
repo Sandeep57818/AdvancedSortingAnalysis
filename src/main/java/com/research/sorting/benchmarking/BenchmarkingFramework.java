@@ -5,19 +5,6 @@ import com.research.sorting.PerformanceMetrics;
 import com.research.sorting.utils.BenchmarkUtils;
 import java.util.*;
 
-/**
- * Professional benchmarking framework for sorting algorithm performance analysis.
- * 
- * This framework implements industry-standard benchmarking practices including:
- * - JVM warmup to ensure Just-In-Time compilation optimization
- * - Multiple measurement iterations with statistical analysis
- * - Memory profiling with garbage collection management
- * - Outlier detection and median calculation for reliable results
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-26
- */
 public class BenchmarkingFramework {
     
     /** Number of warmup iterations to optimize JVM performance */

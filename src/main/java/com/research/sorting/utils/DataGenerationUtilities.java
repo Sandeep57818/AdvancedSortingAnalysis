@@ -1,27 +1,7 @@
 package com.research.sorting.utils;
 
 import java.util.Random;
-// import java.util.Collections;
-// import java.util.List;
-// import java.util.ArrayList;
 
-/**
- * Comprehensive data generation utilities for sorting algorithm testing.
- * 
- * Provides various data distributions and patterns to test algorithm
- * performance under different conditions:
- * - Random data for average-case analysis
- * - Sorted data for best-case scenarios
- * - Reverse sorted data for worst-case scenarios
- * - Nearly sorted data for adaptive algorithm testing
- * - Duplicate-heavy data for stability testing
- * 
- * All generators use fixed seeds for reproducible research results.
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-26
- */
 public class DataGenerationUtilities {
     
     /** Fixed seed for reproducible random number generation */

@@ -2,25 +2,7 @@ package com.research.sorting.algorithms;
 
 import com.research.sorting.utils.BenchmarkUtils;
 
-/**
- * Implementation of Heap Sort algorithm.
- * 
- * Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It
- * divides input into sorted and unsorted regions, and iteratively shrinks the unsorted region by
- * extracting the largest element and moving it to the sorted region.
- * 
- * Algorithm overview: 1. Build a max heap from the input array 2. Repeatedly extract maximum
- * element and place it at the end 3. Restore heap property after each extraction
- * 
- * Time Complexity: - Best Case: O(n log n) - Average Case: O(n log n) - Worst Case: O(n log n)
- * 
- * Space Complexity: O(1) - sorts in-place Stability: Not stable - equal elements may change
- * relative order
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-23
- */
+
 public class HeapSort implements SortingAlgorithm {
 
     /**

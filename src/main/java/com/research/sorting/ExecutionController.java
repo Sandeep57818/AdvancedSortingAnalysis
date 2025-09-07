@@ -7,19 +7,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.io.File;
 
-/**
- * Main execution controller for comprehensive sorting algorithm research.
- * 
- * This controller orchestrates the complete data collection process:
- * - Environment validation and setup
- * - Full-scale benchmarking execution
- * - Data quality validation
- * - Results organization and preliminary analysis
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-26
- */
 public class ExecutionController {
     
     private static final String RESULTS_BASE_DIR = "results";

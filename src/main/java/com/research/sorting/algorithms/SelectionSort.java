@@ -2,28 +2,6 @@ package com.research.sorting.algorithms;
 
 import com.research.sorting.utils.BenchmarkUtils;
 
-/**
- * Implementation of Selection Sort algorithm.
- * 
- * Selection Sort works by repeatedly finding the minimum element
- * from the unsorted part and putting it at the beginning.
- * 
- * Algorithm maintains two subarrays:
- * 1. Sorted subarray (initially empty)
- * 2. Unsorted subarray (initially the entire array)
- * 
- * Time Complexity:
- * - Best Case: O(n²) - always performs same number of comparisons
- * - Average Case: O(n²)
- * - Worst Case: O(n²)
- * 
- * Space Complexity: O(1) - sorts in-place
- * Stability: Not stable in typical implementation
- * 
- * @author Your Name
- * @version 1.0
- * @since 2025-08-22
- */
 public class SelectionSort implements SortingAlgorithm {
     
     /**
