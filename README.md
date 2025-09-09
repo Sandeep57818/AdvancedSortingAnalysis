@@ -48,11 +48,6 @@ SortingAlgorithmResearch/
 4. Run `mvn clean compile` to build project
 5. Execute tests with `mvn test`
 
-## Research Timeline
-- **Days 1-3**: Algorithm implementation and testing
-- **Days 4-6**: Benchmarking framework and data collection
-- **Days 7-8**: Statistical analysis and visualization
-- **Days 9-10**: Documentation and research paper
 
 ## Contact
 **Author**: Sandeep Tharalla
